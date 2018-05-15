@@ -1,0 +1,16 @@
+<div class="container">
+    <h2><%= @task.title %></h2>
+  <div class="box">
+    <%= @task.completed ? "<i class='fas fa-check'> </i>".html_safe : "<i class='fas fa-ban'></i>".html_safe  %>
+  </div>
+  <div class="box">
+   <%= link_to "Edit this task", edit_path(@task), class:"btn btn-primary" %>
+  </div>
+</div>
+
+<div id="box-grey">
+ <%= @task.details %>
+</div>
+<div>
+   <%=  link_to "Come back home baby", tasks_path(@tasks) %>
+</div>

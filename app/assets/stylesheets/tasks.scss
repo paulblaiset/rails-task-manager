@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    width: 600px;
+}
+
+ .container h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+
+
+.bigcontainer {
+margin-left: 30px;
+
+}
+
+.add p{
+  border-top: 1px solid gray;
+  font-family: "Open Sans" !important;
+  padding-top: 15px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+
+
+}
+
+
+#box-grey {
+  border: 1px solid gray;
+  background: #F5F0ED;
+  width: 500px;
+  height: 50px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+
+.form-control {
+width:auto;
+}
+
